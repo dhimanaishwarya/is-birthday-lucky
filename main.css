@@ -43,7 +43,7 @@ input {
 }
 
 div {
-  padding: 2rem;
+  padding: 0.5rem;
 }
 #submit {
   background: var(--primary-color);
@@ -72,29 +72,33 @@ div {
 footer {
   background-color: var(--primary-color);
   text-align: center;
-  position: absolute;
-  bottom: 0;
-  left: 0;
   right: 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  /* padding: 3px; */
+  /* width: 50%; */
 }
 
 footer p {
-  margin: 1rem;
-  font-size: large;
+  font-size: medium;
   text-align: center;
-}
-
-.footer-list {
-  margin: 2rem;
+  /* padding: 0.1rem; */
 }
 
 a,
 img,
-li {
+li,
+ul {
   display: inline;
 }
 
 img {
   width: 40px;
   padding: 0.2rem;
+}
+
+#note {
+  color: blue;
+  font-size: medium;
 }
